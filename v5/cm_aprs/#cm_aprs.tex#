@@ -1,0 +1,42 @@
+ \documentclass[11pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{fullpage}
+\usepackage[pdftex]{graphicx}
+\usepackage{mathrsfs}
+\usepackage{multirow}
+\usepackage{rotating}
+%
+\begin{document}
+\title{CM/APRS \LaTeX Template}
+\author{Ryan M. Gerdes}
+\date{}
+%
+\maketitle
+%
+%\begin{sidewaystable}
+\begin{table}[h]
+\centering
+\caption{Confusion matrix}
+\label{tab:cm}
+\tiny
+<--- GENERATED CODE HERE --->
+\end{tabular}
+\end{table}
+%\end{sidewaystable}
+%
+%
+\begin{table}
+\centering
+\caption{Intra-model APRS values}
+\label{tab:aprs}
+\tiny
+\begin{tabular}{ccccc}
+\hline
+\textbf{Tested Card} & \textbf{A} & \textbf{P} & \textbf{R} & \textbf{S} \\ \hline
+<--- GENERATED CODE HERE --->
+\hline
+\end{tabular}
+\end{table}
+%
+\end{document}

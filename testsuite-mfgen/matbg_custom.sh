@@ -1,0 +1,7 @@
+#!/bin/csh -f
+# Clear the DISPLAY.
+unsetenv DISPLAY  # unset DISPLAY for some shells
+# Call MATLAB with the appropriate input and output,
+# make it immune to hangups and quits using ''nohup'',
+# and run it in the background.
+nohup /local/rgerdes/matlab2010b/bin/matlab -nodisplay -nodesktop -nojvm -nosplash -r $1 >& $2&

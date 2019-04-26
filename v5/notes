@@ -1,0 +1,11 @@
+directories...
+cm_aprs: build confusion matrices and aprs tables
+base: helper functions (e.g., find fp/fn of a single test) used by many scripts/functions
+g_fn_fp: determine fn and fp for all tests
+eft_neft: collect information about effective and ineffective tests
+
+
+procedure...
+1. g_fn_fp:
+2. eft_neft: (Not Needed)
+3. cm_aprs: (Should be Started)
